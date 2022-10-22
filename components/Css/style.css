@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: gray ;
+}
+ .timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    border: solid white;
+ }
+ .timer div{
+    font-size: 70px;
+    font-weight: 100;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .timer .colon{
+    
+    padding-bottom: 15px;
+    margin-left: 0;
+ }
